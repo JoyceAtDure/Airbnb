@@ -1,0 +1,129 @@
+.landing{
+    img{
+        // width: min-content;
+        width: 85rem;
+        height: 34rem;
+    }
+    div{
+        position: absolute;
+        top: 10rem;
+        left: 4rem;
+        color: white;
+
+        button{
+            margin-top: 1rem;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            background-color:  #E61E4D;
+        }
+    }
+}
+
+.chapter {
+    p{
+        a{
+            color: black;
+        }
+    }
+}
+
+.carousel-caption{
+  
+    position: absolute;
+    top: 4rem;
+   
+
+    
+}
+.carousel-indicators{
+    position: absolute;
+   
+    top: 22rem;
+
+   
+}
+
+.carousel-control-prev-icon{
+    margin-left: -9rem;
+  
+    padding: 1rem;
+}
+
+// #carousel-img{
+//     border-radius: 12px;
+// }
+.caption-con{
+    margin-left: -2rem;
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+.host-guest{
+    img{
+        height: 30rem;
+        border-radius: 12px;
+    }
+    div{
+        color: white;
+       position: absolute;
+       margin-top: -22rem;
+       margin-left: 5rem;
+
+       button{
+        margin-top: 1rem;
+        padding: 0.5rem;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        background-color:  #E61E4D;
+       }
+    }
+}
+
+.slide-box{
+    div{
+        img{
+            width: 22rem;
+        }
+    }
+    
+}
+.card{
+    border: none;
+    img{
+        height: 13rem;
+        border-radius: 5px;
+    }
+}
+.support{
+    
+    p{
+        padding-top: 2rem;
+    }
+    a{
+        padding-top: 2rem;
+    }
+}
+.host-two{
+    img{
+        height: 35rem;
+        border-radius: 13px;
+    }
+    div{
+        color: white;
+        position: absolute;
+        margin-top: -22rem;
+        margin-left: 5rem;
+        
+
+        button{
+            margin-top: 1rem;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            background-color:  #E61E4D;
+           }
+    }
+}

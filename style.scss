@@ -1,0 +1,68 @@
+.covid-link{
+    background-color: rgba(0, 0, 0, 0.87);
+    a{
+        color: white;
+        
+    }
+}
+.Hosts,#nav-item{
+    background-color: black;
+}
+.nav-item{
+    button{
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+       //border-color: white;
+    }
+}
+.be-host{
+ margin-top: -20rem;
+ 
+ padding: 3rem;
+    color: white;
+}
+.discover{
+    margin-top: 13rem;
+}
+.nav-child{
+    position: absolute;
+    // margin: 150px; 
+    // padding: 30px 30px 0px 100px;
+     top: 7rem;
+     left: 5rem;
+     background-color: white;
+      font-family: Helvetica;
+      font-weight: 600;
+      color: #484848;
+     display: inline-flex;
+}
+.be-host{
+    button{
+        background-color: white;
+        padding: 8px 15px;
+        border: 2px solid black;
+        border-radius: 8px;
+        a{
+            color: black;
+        }
+    }
+}
+.live-col{
+    a{
+        img{
+            border-radius: 8px;
+        }
+    }
+}
+.hosting{
+    img{
+        border-radius: 8px;
+    }
+}
+.discover-col{
+    img{
+        border-radius: 8px;
+    }
+}
