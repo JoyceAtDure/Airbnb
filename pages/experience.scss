@@ -1,4 +1,9 @@
-
+.navbar{
+	svg{
+		width: 40rem;
+		border: none;
+	}
+}
 
 .picture {
     height:250px;
@@ -18,20 +23,141 @@
 }
 
 
-.try {
+.ex-1 {
     height:250px;
     width: 200px;
-    
+    border-radius: 12px;
     background-image: url('/images/exp-page/all.jpg');
     background-repeat:no-repeat;
    
 }
 
-.try:hover {
+.ex-1:hover {
     background-image: url('/images/exp-page/all1.jpg');
    
 }
 
+
+.ex-2 {
+    height:250px;
+    width: 200px;
+        border-radius: 12px;
+    background-image: url('/images/exp-page/all.jpg');
+    background-repeat:no-repeat;
+   
+}
+
+.ex-2:hover {
+    background-image: url('/images/exp-page/all1.jpg');
+   
+}
+
+
+.ex-3 {
+    height:250px;
+    width: 200px;
+        border-radius: 12px;
+    background-image: url('/images/exp-page/all.jpg');
+    background-repeat:no-repeat;
+   
+}
+
+.ex-3:hover {
+    background-image: url('/images/exp-page/all1.jpg');
+   
+}
+.ex-4 {
+    height:250px;
+    width: 200px;
+        border-radius: 12px;
+    background-image: url('/images/exp-page/all.jpg');
+    background-repeat:no-repeat;
+   
+}
+
+.ex-4:hover {
+    background-image: url('/images/exp-page/all1.jpg');
+   
+}
+.ex-5 {
+    height:250px;
+    width: 200px;
+        border-radius: 12px;
+    background-image: url('/images/exp-page/all.jpg');
+    background-repeat:no-repeat;
+   
+}
+
+.ex-5:hover {
+    background-image: url('/images/exp-page/all1.jpg');
+   
+}
+.ex-6 {
+    height:250px;
+    width: 200px;
+        border-radius: 12px;
+    background-image: url('/images/exp-page/all.jpg');
+    background-repeat:no-repeat;
+   
+}
+
+.ex-6:hover {
+    background-image: url('/images/exp-page/all1.jpg');
+   
+}
+.ex-7 {
+    height:250px;
+    width: 200px;
+        border-radius: 12px;
+    background-image: url('/images/exp-page/all.jpg');
+    background-repeat:no-repeat;
+   
+}
+
+.ex-7:hover {
+    background-image: url('/images/exp-page/all1.jpg');
+   
+}
+.ex-8 {
+    height:250px;
+    width: 200px;
+        border-radius: 12px;
+    background-image: url('/images/exp-page/all.jpg');
+    background-repeat:no-repeat;
+   
+}
+
+.ex-8:hover {
+    background-image: url('/images/exp-page/all1.jpg');
+   
+}
+.ex-9 {
+    height:250px;
+    width: 200px;
+        border-radius: 12px;
+    background-image: url('/images/exp-page/all.jpg');
+    background-repeat:no-repeat;
+   
+}
+
+.ex-9:hover {
+    background-image: url('/images/exp-page/all1.jpg');
+   
+}
+
+.ex-10 {
+    height:250px;
+    width: 200px;
+	border-radius: 12px;
+    background-image: url('/images/exp-page/all.jpg');
+    background-repeat:no-repeat;
+   
+}
+
+.ex-10:hover {
+    background-image: url('/images/exp-page/all1.jpg');
+   
+}
 ///////////////
 .carousel {
 	margin: 20px auto;
@@ -146,4 +272,29 @@
 }
 .carousel-indicators li.active {	
 	background: rgba(0, 0, 0, 0.6);
+}
+
+
+////modal
+.exp-modal{
+	margin-top: 12.5rem;
+	margin-left: -35rem;
+}
+.Experience{
+	button{
+		background-color: white;
+		border:1px solid black ;
+		border-radius: 18px;
+		margin-left: 5px;
+	}
+}
+// .exp-grid{
+// 	p{
+		
+// 	}
+// }
+
+
+.video-fluid{
+	width: 20rem;
 }
