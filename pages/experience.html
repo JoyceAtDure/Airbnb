@@ -7,6 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
      <link rel="stylesheet" href="/css/experience.css">
     <title>Experience</title>
   </head>
@@ -34,39 +36,155 @@
     </div>
 
     <div class="Experience container">
-      <button type="button" class="btn " data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Guests</button>
-    <button type="button" class="btn " data-toggle="modal" data-target="#exampleModal" data-whatever="@fat">Price</button>
-    <button type="button" class="btn " data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Time of the day</button>
-    <button type="button" class="btn " data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Language offered</button>
+      <button type="button" class="btn " data-toggle="modal" data-target="#exampleModal-1" data-whatever="@mdo">Guests</button>
+    <button type="button" class="btn " data-toggle="modal" data-target="#exampleModal-2" data-whatever="@fat">Price</button>
+    <button type="button" class="btn " data-toggle="modal" data-target="#exampleModal-3" data-whatever="@getbootstrap">Time of the day</button>
+    <button type="button" class="btn " data-toggle="modal" data-target="#exampleModalScrollable" data-whatever="@getbootstrap">Language offered</button>
 
-    <div class="exp-modal modal " id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="exp-modal modal " id="exampleModal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">          
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
+          
           <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="recipient-name" class="col-form-label">Recipient:</label>
-                <input type="text" class="form-control" id="recipient-name">
-              </div>
-              <div class="form-group">
-                <label for="message-text" class="col-form-label">Message:</label>
-                <textarea class="form-control" id="message-text"></textarea>
-              </div>
-            </form>
+            <div>
+              <h4>Adults</h4>
+              <p>Ages 13 or above</p>
+            </div>
+            <div>
+              <h4>Adults</h4>
+              <p>Ages 13 or above</p>
+            </div>
+            <div>
+              <h4>Adults</h4>
+              <p>Ages 13 or above</p>
+            </div>
+            
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-            <button type="button" class="btn ">Send message</button>
+            <button type="button" class="btn" >Clear</button>
+            <button type="button" class="btn ">Save</button>
           </div>
         </div>
       </div>
     </div>
+
+    
+    <div class="time modal " id="exampleModal-3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          
+          <div class="modal-body">
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 1
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 2
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 3
+              </label>
+            </div> 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" >Clear</button>
+            <button type="button" class="btn ">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+<!-- Modal -->
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col">
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 1
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 2
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 3
+              </label>
+            </div> 
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 1
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 2
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 3
+              </label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 1
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 2
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 3
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 1
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 2
+              </label>
+            </div>
+            <div class="form-check">
+              <label class="form-check-label">
+                <input type="checkbox" class="form-check-input" value="">Option 3
+              </label>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn" data-dismiss="modal">Close</button>
+        <button type="button" class="btn">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
     <div class="container mt-3">
       <p>Review COVID-19 travel restrictions before you book.<a><u>Learn More</u></a></p>
@@ -74,9 +192,9 @@
     </div>
     <!-- *******************section 2******
         https://bbbootstrap.com/snippets/simple-image-overlay-hover-effect-38877551************ -->
-    <div class="container mt-5">
+    <div class="Exp-gallery container-fluid mt-5">
         <h2>All Experience</h2>
-        <div class="row no-gutters mt-3">
+        <div class="row mt-3">
             <div class="exp-grid col">
                 <img class="ex-1">
                 <p>Cooking and Spice Market  </br>  with Akasha</p>
@@ -104,7 +222,7 @@
             </div>
            
           </div>
-          <div class="row no-gutters mt-3">
+          <div class="row  mt-3">
             <div class="col">
               <img class="ex-6">
                 <p>Cooking and Spice Market </br>  with Akasha</p>
@@ -172,25 +290,21 @@
     </div>
 
     <!-- https://www.tutorialrepublic.com/codelab.php?topic=bootstrap&file=product-list-carousel-for-ecommerce-website -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Introducing Online Experiences/h2>
-          <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
-          <!-- Carousel indicators -->
-          <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            
-          </ol>   
+    <div class="Online container-fluid">
+     
+          <h2>Introducing Online Experiences</h2>
+          <div id="myCarousel" class="carousel slide mt-3" data-ride="carousel" data-interval="0">
+          
           <!-- Wrapper for carousel items -->
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <div class="row">
-                <div class="col-sm-3">
+              <div class="row no-gutters">
+                <div class="col">
                   <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="/images/exp-page/all13.jpeg" class="img-fluid" alt="">
+                    <div class="video">
+                      <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
+                        <source src="/images/exp-page/videos/Tarot Reading and Meditation - Airbnb.mp4" type="video/mp4" />
+                      </video>
                     </div>
                     <div class="thumb-content">
                       <h4>Apple iPad</h4>
@@ -200,11 +314,13 @@
                     </div>						
                   </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col">
                   <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="/images/exp-page/all11.jpg" class="img-fluid" alt="">
-                    </div>
+                     <div class="video">
+                          <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
+                            <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4" />
+                          </video>
+                        </div>
                     <div class="thumb-content">
                       <h4>Sony Headphone</h4>
                 
@@ -213,24 +329,38 @@
                     </div>						
                   </div>
                 </div>		
-                <div class="col-sm-3">
+                <div class="col">
                   <div class="thumb-wrapper">
                     <div class="img-box">
-                      <img src="/images/exp-page/all11.jpg" class="img-fluid" alt="">
+                      <img src="/images/exp-page/game-1.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="thumb-content">
                       <h4>Macbook Air</h4>
+                     </div>						
+                  </div>
+                </div>								
+                <div class="col">
+                  <div class="thumb-wrapper">
+                     <div class="video">
+                          <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
+                            <source src="/images/exp-page/videos/'True vs False' Funny Historical Game - Airbnb.mp4" type="video/mp4" />
+                          </video>
+                        </div>
+                    <div class="thumb-content">
+                      <h4>Nikon DSLR</h4>
                     
                       
                       
                     </div>						
                   </div>
-                </div>								
-                <div class="col-sm-3">
+                </div>
+                <div class="col">
                   <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="/images/exp-page/all11.jpg" class="img-fluid" alt="">
-                    </div>
+                     <div class="video">
+                          <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
+                            <source src="/images/exp-page/videos/Pasta with the Grandmas - Airbnb.mp4" type="video/mp4" />
+                          </video>
+                        </div>
                     <div class="thumb-content">
                       <h4>Nikon DSLR</h4>
                     
@@ -243,11 +373,13 @@
             </div>
             <div class="carousel-item">
               <div class="row">
-                <div class="col-sm-3">
+                <div class="col">
                   <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="/images/exp-page/all11.jpg" class="img-fluid" alt="">
-                    </div>
+                     <div class="video">
+                          <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
+                            <source src="/images/exp-page/videos/Dive Under the Sea with a Shark Expert - Airbnb.mp4" type="video/mp4" />
+                          </video>
+                        </div>
                     <div class="thumb-content">
                       <h4>Sony Play Station</h4>
                     
@@ -256,11 +388,13 @@
                     </div>						
                   </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col">
                   <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="/images/exp-page/all11.jpg" class="img-fluid" alt="">
-                    </div>
+                     
+                      <div class="img-box mt-5">
+                        <img src="/images/exp-page/living-1.jpg" width="max-content" height="150rem" alt="">
+                      </div>
+                       
                     <div class="thumb-content">
                       <h4>Macbook Pro</h4>
                       
@@ -269,11 +403,13 @@
                     </div>						
                   </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col">
                   <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="/images/exp-page/all11.jpg" class="img-fluid" alt="">
-                    </div>
+                     <div class="video">
+                          <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
+                            <source src="/images/exp-page/videos/Drawn from Within with a New York Artist - Airbnb.mp4" type="video/mp4" />
+                          </video>
+                        </div>
                     <div class="thumb-content">
                       <h4>Bose Speaker</h4>
                   
@@ -282,11 +418,28 @@
                     </div>						
                   </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col">
                   <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="/images/exp-page/all11.jpg" class="img-fluid" alt="">
-                    </div>
+                     <div class="video">
+                          <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
+                            <source src="/images/exp-page/videos/Happiness meditation with chocolate - Airbnb.mp4" type="video/mp4" />
+                          </video>
+                        </div>
+                    <div class="thumb-content">
+                      <h4>Samsung Galaxy S8</h4>
+                    
+                      
+                      
+                    </div>						
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="thumb-wrapper">
+                     <div class="video">
+                          <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
+                            <source src="/images/exp-page/videos/Worlds Top Coffee Masterclass - Airbnb.mp4" type="video/mp4" />
+                          </video>
+                        </div>
                     <div class="thumb-content">
                       <h4>Samsung Galaxy S8</h4>
                     
@@ -305,22 +458,13 @@
           <a class="carousel-control-next" href="#myCarousel" data-slide="next">
             <i class="fa fa-angle-right"></i>
           </a>
-        </div>
-        </div>
+       
       </div>
     </div>
 <!-- 
 Play video on hover
 https://codepen.io/aperazzi/pen/eeQYMQ -->
 
-<div class="container">
-  <div class="video">
-    <video class="video-fluid z-depth-1" autoplay loop controls muted>
-      <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
-    </video>
-  </div>
-  
-</div>
 
 
 

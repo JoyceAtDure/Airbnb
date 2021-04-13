@@ -22,12 +22,15 @@
     }
 }
 
+.Exp-gallery{
+	padding: 0px 80px;
+}
 
 .ex-1 {
     height:250px;
     width: 200px;
     border-radius: 12px;
-    background-image: url('/images/exp-page/all.jpg');
+    background-image: url('/images/exp-page/all21.jpg');
     background-repeat:no-repeat;
    
 }
@@ -48,7 +51,7 @@
 }
 
 .ex-2:hover {
-    background-image: url('/images/exp-page/all1.jpg');
+    background-image: url('/images/exp-page/all18.jpg');
    
 }
 
@@ -57,91 +60,91 @@
     height:250px;
     width: 200px;
         border-radius: 12px;
-    background-image: url('/images/exp-page/all.jpg');
+    background-image: url('/images/exp-page/all8.jpg');
     background-repeat:no-repeat;
    
 }
 
 .ex-3:hover {
-    background-image: url('/images/exp-page/all1.jpg');
+    background-image: url('/images/exp-page/all16.jpeg');
    
 }
 .ex-4 {
     height:250px;
     width: 200px;
         border-radius: 12px;
-    background-image: url('/images/exp-page/all.jpg');
+    background-image: url('/images/exp-page/all11.jpg');
     background-repeat:no-repeat;
    
 }
 
 .ex-4:hover {
-    background-image: url('/images/exp-page/all1.jpg');
+    background-image: url('/images/exp-page/all25.jpg');
    
 }
 .ex-5 {
     height:250px;
     width: 200px;
         border-radius: 12px;
-    background-image: url('/images/exp-page/all.jpg');
+    background-image: url('/images/exp-page/all25.jpg');
     background-repeat:no-repeat;
    
 }
 
 .ex-5:hover {
-    background-image: url('/images/exp-page/all1.jpg');
+    background-image: url('/images/exp-page/all11.jpg');
    
 }
 .ex-6 {
     height:250px;
     width: 200px;
         border-radius: 12px;
-    background-image: url('/images/exp-page/all.jpg');
+    background-image: url('/images/exp-page/all6.jpg');
     background-repeat:no-repeat;
    
 }
 
 .ex-6:hover {
-    background-image: url('/images/exp-page/all1.jpg');
+    background-image: url('/images/exp-page/all23.jpeg');
    
 }
 .ex-7 {
     height:250px;
     width: 200px;
         border-radius: 12px;
-    background-image: url('/images/exp-page/all.jpg');
+    background-image: url('/images/exp-page/all5.jpeg');
     background-repeat:no-repeat;
    
 }
 
 .ex-7:hover {
-    background-image: url('/images/exp-page/all1.jpg');
+    background-image: url('/images/exp-page/all12.jpeg');
    
 }
 .ex-8 {
     height:250px;
     width: 200px;
         border-radius: 12px;
-    background-image: url('/images/exp-page/all.jpg');
+    background-image: url('/images/exp-page/all14.jpeg');
     background-repeat:no-repeat;
    
 }
 
 .ex-8:hover {
-    background-image: url('/images/exp-page/all1.jpg');
+    background-image: url('/images/exp-page/all4.jpeg');
    
 }
 .ex-9 {
     height:250px;
     width: 200px;
         border-radius: 12px;
-    background-image: url('/images/exp-page/all.jpg');
+    background-image: url('/images/exp-page/all9.jpeg');
     background-repeat:no-repeat;
    
 }
 
 .ex-9:hover {
-    background-image: url('/images/exp-page/all1.jpg');
+    background-image: url('/images/exp-page/all13.jpeg');
    
 }
 
@@ -149,13 +152,13 @@
     height:250px;
     width: 200px;
 	border-radius: 12px;
-    background-image: url('/images/exp-page/all.jpg');
+    background-image: url('/images/exp-page/all2.jpg');
     background-repeat:no-repeat;
    
 }
 
 .ex-10:hover {
-    background-image: url('/images/exp-page/all1.jpg');
+    background-image: url('/images/exp-page/all3.jpg');
    
 }
 ///////////////
@@ -219,11 +222,24 @@
 	padding: 15px;
 }
 .carousel-control-prev, .carousel-control-next {
-	height: 100px;
+	height: 40px;
 	width: 40px;
+	border-radius: 50%;
 	background: none;
 	margin: auto 0;
-	background: rgba(0, 0, 0, 0.2);
+	border: 2px solid black;
+	// background: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-prev{
+	position: absolute;
+	top: -24rem;
+	left: 60rem;
+}
+.carousel-control-next{
+	position: absolute;
+	top: -24rem;
+	right: 4rem;
 }
 .carousel-control-prev i, .carousel-control-next i {
 	font-size: 30px;
@@ -278,7 +294,8 @@
 ////modal
 .exp-modal{
 	margin-top: 12.5rem;
-	margin-left: -35rem;
+	margin-left: -50rem;
+	
 }
 .Experience{
 	button{
@@ -288,6 +305,10 @@
 		margin-left: 5px;
 	}
 }
+
+.modal-dialog{
+	width: 20rem;
+}
 // .exp-grid{
 // 	p{
 		
@@ -296,5 +317,17 @@
 
 
 .video-fluid{
-	width: 20rem;
+	width: 12rem;
+	height: 22rem;
 }
+
+.Online{
+	padding: 0px 80px;
+}
+
+// .img-box{
+// 	img{
+// 		height: 50rem;
+// 		width: max-content;
+// 	}
+// }
