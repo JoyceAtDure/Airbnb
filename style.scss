@@ -1,3 +1,14 @@
+$font-family:'Roboto', sans-serif;
+$heading-font-size:32px;
+$body-font-size:14px;
+
+body{
+    font-family: $font-family;
+}
+
+h2{
+    font-size: $heading-font-size;
+}
 .covid-link{
     background-color: rgba(0, 0, 0, 0.87);
     a{

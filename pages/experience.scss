@@ -1,10 +1,28 @@
 .navbar{
+	background-color: white;
+	padding: 0 80px;
 	svg{
 		width: 40rem;
 		border: none;
 	}
+	form{
+		input{
+			border-radius: 10px;
+		}
+		
+	}
+	button{
+		background-color: white;
+		border-radius: 20px;
+		padding: 5px;
+	}
 }
 
+.exp-head{
+	padding-top: 50px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
 .picture {
     height:250px;
     width: 200px;
@@ -32,10 +50,11 @@
     border-radius: 12px;
     background-image: url('/images/exp-page/all21.jpg');
     background-repeat:no-repeat;
-   
+    
 }
 
 .ex-1:hover {
+	
     background-image: url('/images/exp-page/all1.jpg');
    
 }
@@ -293,11 +312,22 @@
 
 ////modal
 .exp-modal{
-	margin-top: 12.5rem;
-	margin-left: -50rem;
+	margin-top: 13.5rem;
+	margin-left: -55rem;
 	
 }
+
+.language-modal{
+	
+	margin-top: 13.5rem;
+	margin-left: -15rem;
+}
+.time{
+	margin-top: 13.5rem;
+	margin-left: -35rem;
+}
 .Experience{
+	padding: 0px 80px ;
 	button{
 		background-color: white;
 		border:1px solid black ;
@@ -305,7 +335,12 @@
 		margin-left: 5px;
 	}
 }
+.review{
+	
+		padding: 0px 80px;
 
+	
+}
 .modal-dialog{
 	width: 20rem;
 }
@@ -325,9 +360,23 @@
 	padding: 0px 80px;
 }
 
+.video-fluid{
+	overflow: hidden;
+	border-radius: 10px;
+	.video{
+		
+		.source{
+			border-radius: 10px;
+		}
+	}
+}
 // .img-box{
 // 	img{
 // 		height: 50rem;
 // 		width: max-content;
 // 	}
 // }
+
+.exp-quality{
+	padding: 0px 80px;
+}

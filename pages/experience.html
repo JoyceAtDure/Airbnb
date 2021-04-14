@@ -10,32 +10,52 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
      <link rel="stylesheet" href="/css/experience.css">
-    <title>Experience</title>
+    <title>Things to do</title>
   </head>
   <body>
 
     <!-- *******************section 1****************** -->
     <div>
-      <nav class="navbar fixed-top  bg-light">
+      <!-- <nav class="navbar fixed-top  bg-light">
         
-        <!-- <embed type="image/svg+xml" src="/images/airbnb-1.svg" /> -->
-
-        <!-- <iframe src="/images/airbnb-1.svg"></iframe> -->
+        
         <img class="logo" src="/images/rsz_logo.jpg" width="10%">
        
+        <div class="main-form" style="display: inline-flex;">
+              <div class="form-group">
+                
+                <input class="form-control" type="text" placeholder="NearBy" name="destination" />
+            </div>
+            <div class="form-group" >
+                
+                <input class="form-control" type="date" placeholder="Add date" name="checkin-2" />
+            </div>
+        </div>
 
+      </nav> -->
+      <nav class="navbar navbar-light fixed-top justify-content-between">
+        <a class="navbar-brand mt-3"><img class="logo" src="/images/rsz_logo.jpg" width="50%">
+        </a>
+        <form class="form-inline mr-auto ml-5">
+          <input class="form-control" type="text" placeholder="NearBy" name="destination" />
+          <input class="form-control" type="date" placeholder="Add date" name="checkin-2" />
+        </form>
+        <p class="para mt-2 mr-3">Become a host</p>
+        <i class="fa fa-globe mr-3"></i>
+        <button><i class="fa fa-bars ml-2 mr-3"></i><i class="fa fa-user mr-2"></i></button>
+        <!-- <button><svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" style="display: block; height: 10%; width: 10%;border:none"><path d="m16 .7c-8.437 0-15.3 6.863-15.3 15.3s6.863 15.3 15.3 15.3 15.3-6.863 15.3-15.3-6.863-15.3-15.3-15.3zm0 28c-4.021 0-7.605-1.884-9.933-4.81a12.425 12.425 0 0 1 6.451-4.4 6.507 6.507 0 0 1 -3.018-5.49c0-3.584 2.916-6.5 6.5-6.5s6.5 2.916 6.5 6.5a6.513 6.513 0 0 1 -3.019 5.491 12.42 12.42 0 0 1 6.452 4.4c-2.328 2.925-5.912 4.809-9.933 4.809z"></path></svg></button> -->
       </nav>
   
     </div>
 
-
-    <div class="container mt-5 pt-5">
+   
+    <div class="exp-head container-fluid mt-5">
         <h4>19 Experience</h4>
         <h1>Experiences near you</h1>
 
     </div>
 
-    <div class="Experience container">
+    <div class="Experience container-fluid">
       <button type="button" class="btn " data-toggle="modal" data-target="#exampleModal-1" data-whatever="@mdo">Guests</button>
     <button type="button" class="btn " data-toggle="modal" data-target="#exampleModal-2" data-whatever="@fat">Price</button>
     <button type="button" class="btn " data-toggle="modal" data-target="#exampleModal-3" data-whatever="@getbootstrap">Time of the day</button>
@@ -76,17 +96,20 @@
           <div class="modal-body">
             <div class="form-check">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 1
+                <input type="checkbox" class="form-check-input" value="">Morning
+                <p>Starts before 8am</p>
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 2
+                <input type="checkbox" class="form-check-input" value="">Afternoon
+                <p>Starts before 1pm</p>
               </label>
             </div>
             <div class="form-check">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 3
+                <input type="checkbox" class="form-check-input" value="">Evening
+                <p>Starts before 8pm</p>
               </label>
             </div> 
           </div>
@@ -99,7 +122,7 @@
     </div>
     
 <!-- Modal -->
-<div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+<div class="language-modal modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-scrollable" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -111,66 +134,66 @@
       <div class="modal-body">
         <div class="row">
           <div class="col">
-            <div class="form-check">
+            <div class="form-check ">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 1
+                <input type="checkbox" class="form-check-input" value="">English
               </label>
             </div>
-            <div class="form-check">
+            <div class="form-check mt-3">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 2
+                <input type="checkbox" class="form-check-input" value="">German
               </label>
             </div>
-            <div class="form-check">
+            <div class="form-check mt-3">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 3
+                <input type="checkbox" class="form-check-input" value="">Italian
               </label>
             </div> 
-            <div class="form-check">
+            <div class="form-check mt-3">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 1
+                <input type="checkbox" class="form-check-input" value="">Spanish
               </label>
             </div>
-            <div class="form-check">
+            <div class="form-check mt-3">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 2
+                <input type="checkbox" class="form-check-input" value="">Korean
               </label>
             </div>
-            <div class="form-check">
+            <div class="form-check mt-3">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 3
+                <input type="checkbox" class="form-check-input" value="">Dutch
               </label>
             </div>
           </div>
           <div class="col">
             <div class="form-check">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 1
+                <input type="checkbox" class="form-check-input" value="">Bengali
               </label>
             </div>
-            <div class="form-check">
+            <div class="form-check mt-3">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 2
+                <input type="checkbox" class="form-check-input" value="">Sign
               </label>
             </div>
-            <div class="form-check">
+            <div class="form-check mt-3">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 3
+                <input type="checkbox" class="form-check-input" value="">Greek
               </label>
             </div>
-            <div class="form-check">
+            <div class="form-check mt-3">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 1
+                <input type="checkbox" class="form-check-input" value="">Hebrew
               </label>
             </div>
-            <div class="form-check">
+            <div class="form-check mt-3">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 2
+                <input type="checkbox" class="form-check-input" value="">Polish
               </label>
             </div>
-            <div class="form-check">
+            <div class="form-check mt-3">
               <label class="form-check-label">
-                <input type="checkbox" class="form-check-input" value="">Option 3
+                <input type="checkbox" class="form-check-input" value="">Portuguese
               </label>
             </div>
           </div>
@@ -183,13 +206,14 @@
         <button type="button" class="btn">Save changes</button>
       </div>
     </div>
-  </div>
-</div>
+   </div>
+   </div>
     </div>
-    <div class="container mt-3">
-      <p>Review COVID-19 travel restrictions before you book.<a><u>Learn More</u></a></p>
+    <div class="container-fluid mt-3"></div>
+      <p class="review">Review COVID-19 travel restrictions before you book.<a><u>Learn More</u></a></p>
 
     </div>
+ 
     <!-- *******************section 2******
         https://bbbootstrap.com/snippets/simple-image-overlay-hover-effect-38877551************ -->
     <div class="Exp-gallery container-fluid mt-5">
@@ -254,7 +278,7 @@
           
     </div>
     <!-- *******************section 3****************** -->
-    <div class="container mt-5 pt-5 pb-5 mb-5">
+    <div class="exp-quality container-fluid mt-5 pt-5 pb-5 mb-5">
       <div class="row">
         <div class="col">
           <h2>Airbnb Experiences are vetted for quality</h2>
@@ -301,7 +325,7 @@
               <div class="row no-gutters">
                 <div class="col">
                   <div class="thumb-wrapper">
-                    <div class="video">
+                    <div class="video mt-2">
                       <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
                         <source src="/images/exp-page/videos/Tarot Reading and Meditation - Airbnb.mp4" type="video/mp4" />
                       </video>
@@ -316,7 +340,7 @@
                 </div>
                 <div class="col">
                   <div class="thumb-wrapper">
-                     <div class="video">
+                     <div class="video mt-2">
                           <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
                             <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4" />
                           </video>
@@ -330,19 +354,15 @@
                   </div>
                 </div>		
                 <div class="col">
-                  <div class="thumb-wrapper">
-                    <div class="img-box">
-                      <img src="/images/exp-page/game-1.jpg" class="img-fluid" alt="">
-                    </div>
-                    <div class="thumb-content">
-                      <h4>Macbook Air</h4>
-                     </div>						
-                  </div>
+                 <div class="thumb-wrapper">
+                  <img src="/images/exp-page/game-1.jpg">
+                  <!-- <p>This image info</p> -->
+                 </div> 
                 </div>								
                 <div class="col">
                   <div class="thumb-wrapper">
-                     <div class="video">
-                          <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
+                     <div class="video  mt-2">
+                          <video class="video-fluid" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
                             <source src="/images/exp-page/videos/'True vs False' Funny Historical Game - Airbnb.mp4" type="video/mp4" />
                           </video>
                         </div>
@@ -356,7 +376,7 @@
                 </div>
                 <div class="col">
                   <div class="thumb-wrapper">
-                     <div class="video">
+                     <div class="video mt-2">
                           <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
                             <source src="/images/exp-page/videos/Pasta with the Grandmas - Airbnb.mp4" type="video/mp4" />
                           </video>
@@ -375,7 +395,7 @@
               <div class="row">
                 <div class="col">
                   <div class="thumb-wrapper">
-                     <div class="video">
+                     <div class="video mt-2">
                           <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
                             <source src="/images/exp-page/videos/Dive Under the Sea with a Shark Expert - Airbnb.mp4" type="video/mp4" />
                           </video>
@@ -391,21 +411,18 @@
                 <div class="col">
                   <div class="thumb-wrapper">
                      
-                      <div class="img-box mt-5">
-                        <img src="/images/exp-page/living-1.jpg" width="max-content" height="150rem" alt="">
+                      <div>
+                        <img src="/images/exp-page/living-1.jpg" alt="">
                       </div>
                        
-                    <div class="thumb-content">
+                    <!-- <div class="thumb-content">
                       <h4>Macbook Pro</h4>
-                      
-                      
-                      
-                    </div>						
+                    </div>						 -->
                   </div>
                 </div>
                 <div class="col">
                   <div class="thumb-wrapper">
-                     <div class="video">
+                     <div class="video mt-2">
                           <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
                             <source src="/images/exp-page/videos/Drawn from Within with a New York Artist - Airbnb.mp4" type="video/mp4" />
                           </video>
@@ -420,7 +437,7 @@
                 </div>
                 <div class="col">
                   <div class="thumb-wrapper">
-                     <div class="video">
+                     <div class="video mt-2">
                           <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
                             <source src="/images/exp-page/videos/Happiness meditation with chocolate - Airbnb.mp4" type="video/mp4" />
                           </video>
@@ -435,7 +452,7 @@
                 </div>
                 <div class="col">
                   <div class="thumb-wrapper">
-                     <div class="video">
+                     <div class="video mt-2">
                           <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
                             <source src="/images/exp-page/videos/Worlds Top Coffee Masterclass - Airbnb.mp4" type="video/mp4" />
                           </video>
@@ -466,6 +483,69 @@ Play video on hover
 https://codepen.io/aperazzi/pen/eeQYMQ -->
 
 
+<div class="footer-start container-fluid">
+  <div class="row mt-5">
+     <div class="col">
+         <h6>ABOUT</h6>
+         <p>How Airbnb works</p>
+         <p>Newsroom</p>
+         <p>Investors</p>
+         <p>Airbnb Plus</p>
+         <p>Airbnb Luxe</p>
+         <p>HotelTonight</p>
+         <p>Airbnb for work</p>
+     </div>
+     <div class="col">
+        <h6>COMMUNITY</h6>
+        <p>Diversity & Belonging</p>
+        <p>Accessibility</p>
+        <p>Airbnb Associates</p>
+        <p>Frontline Stays</p>
+        <p>Guest Referrals</p>
+        <p>Airbnb.org</p>
+
+     </div>
+     <div class="col">
+        <h6>HOST</h6>
+        <p>Host your home</p>
+        <p>Host an Online Experience</p>
+        <p>Host an Experience</p>
+        <p>Responsible hosting</p>
+        <p>Resource Centre</p>
+        <p>Community Centre</p>
+
+     </div>
+     <div class="col">
+        <h6>SUPPORT</h6>
+        <p>Our COVID-19 Response</p>
+        <p>Help Centre</p>
+        <p>Cancellation options</p>
+        <p>Neighbourhood Support</p>
+        <p>Trust & Safety</p>
+
+     </div>
+  </div>
+
+</div>
+<div class="copyright container-fluid">
+  <hr>
+  <div class="row">
+      <div class="col"><p>© 2021 Airbnb, Inc. All rights reserved</p></div>
+      <div class="col">
+          <ul >
+             <li style="display: inline;">Privacy</li>
+             <li style="display: inline;">Terms</li>
+             <li style="display: inline;">Sitemap</li>
+             <li style="display: inline;">Company details</li>
+          </ul>
+
+      </div>
+      <div class="col">
+          Icons
+      </div>
+  </div>
+
+</div>
 
 
 

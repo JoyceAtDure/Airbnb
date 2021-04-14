@@ -1,3 +1,6 @@
 https://github.com/iamashwinks/Airbnb-Clone/blob/master/bootstrap.html
 
 https://bbbootstrap.com/snippets/simple-image-overlay-hover-effect-38877551
+
+
+https://bbbootstrap.com/snippets/animated-moving-images-library-15300526
