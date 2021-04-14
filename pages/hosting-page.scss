@@ -1,8 +1,42 @@
+section{
+    padding: 0 80px;
+}
+i{
+    color: black;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid black;
+    
+}
+/////////////////////////section-1/////////////////
+/////////////////////////section-2/////////////////
+/////////////////////////section-3/////////////////
+/////////////////////////section-4/////////////////
+/////////////////////////section-5/////////////////
+/////////////////////////section-6/////////////////
+/////////////////////////section-7/////////////////
+/////////////////////////section-8/////////////////
+.btn-form{
+    color: white;
+    background-color: #222222;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.controls-top{
+    position: absolute;
+    top: -3rem;
+    right: 1rem;
+    bottom: 1rem;
+}
+
 .landing{
     img{
         // width: min-content;
-        width: 85rem;
+         width: 85rem;
         height: 34rem;
+        
     }
     div{
         position: absolute;
@@ -125,5 +159,26 @@
             color: white;
             background-color:  #E61E4D;
            }
+    }
+}
+
+////////////////////////////////////////////section footer
+footer{
+    padding: 0 80px;
+    
+}
+#foo-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#foo-content{
+    font-size: $body-font-size;
+}
+.copy-text{
+    li{
+        font-size: $body-font-size;
+        display: inline;
+
     }
 }
