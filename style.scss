@@ -225,7 +225,11 @@ section{
 }
 /////////////////////////////////////////////section footer
 footer{
-    padding: 0 80px;
+    background-color: #F7F7F7;
+    div{
+        padding: 0 80px;
+    }
+    
 }
 #foo-title{
     font-size: 12px;
