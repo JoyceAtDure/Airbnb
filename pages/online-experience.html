@@ -14,16 +14,26 @@
   </head>
   <body>
    <div>
-    <nav class="navbar navbar-light fixed-top justify-content-between">
-      <a class="navbar-brand mt-3"><img class="logo" src="/images/rsz_logo.jpg" width="50%">
+    
+    <nav class="main-nav navbar navbar-expand-lg navbar-light pt-2 pb-2" id="nav-item">
+      <a class="navbar-brand text-white" href="#">
+          <img src="/images/rsz_logo.jpg" width="40%">
       </a>
-      <form class="form-inline mr-auto ml-5">
-        <input class="form-control" type="text" placeholder="NearBy" name="destination" />
-        <input class="form-control" type="date" placeholder="Add date" name="checkin-2" />
-      </form>
-      <p class="para mt-2 mr-3">Become a host</p>
-      <i class="fa fa-globe mr-3"></i>
-      <button><i class="fa fa-bars ml-2 mr-3"></i><i class="fa fa-user mr-2"></i></button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" >
+          <ul class="navbar-nav ml-auto" id="right-nav" >
+            <li class="nav-item mt-1">
+              Become a host
+            </li>
+            <i class="fa fa-globe mr-4 ml-3 mt-2"></i>
+            <button id="sign"><i class="fa fa-bars ml-2 mr-3"></i><i class="fa fa-user mr-2"></i></button>
+
+          </ul>
+      </div>
+
     </nav>
    </div>
     
@@ -54,9 +64,9 @@
     </section>
     <hr>
   <!-- **********secction-2************* -->
-  <section>
+  <section class="wander-home mt-4">
     <h3>Wander from home</h3>
-      <div id="myCarousel" class="carousel slide mt-3" data-ride="carousel" data-interval="0">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="0">
             
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner">
@@ -64,7 +74,7 @@
             <div class="row no-gutters">
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video">
                     <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                       <source src="/images/exp-page/videos/Tarot Reading and Meditation - Airbnb.mp4" type="video/mp4" />
                     </video>
@@ -80,7 +90,7 @@
               </div>
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video">
                         <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -94,14 +104,15 @@
                 </div>
               </div>		
               <div class="col">
-              <div class="thumb-wrapper mt-5 pt-2">
+              <div class="thumb-wrapper mt-5">
                 <img src="/images/exp-page/game-1.jpg" width="90%">
-                <p>This image info</p>
+                <p id="img-text">Cooking and Spice Market </br>  with Akasha</p>
+                <p class="price-tag"><b>From rs.2000</b>/person</p>
               </div> 
               </div>								
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video  mt-2">
+                  <div class="video ">
                         <video class="video-fluid" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/'True vs False' Funny Historical Game - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -116,7 +127,7 @@
               </div>
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video">
                         <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/Pasta with the Grandmas - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -135,7 +146,7 @@
             <div class="row">
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video">
                         <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/Dive Under the Sea with a Shark Expert - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -150,11 +161,12 @@
                 </div>
               </div>
               <div class="col">
-                <div class="thumb-wrapper mt-5 pt-2">
+                <div class="thumb-wrapper mt-5">
                   
                     <div>
                       <img src="/images/exp-page/living-1.jpg" alt="" width="100%">
-                      <p>blah blah</p>
+                      <p id="img-text">Cooking and Spice Market </br>  with Akasha</p>
+                      <p class="price-tag"><b>From rs.2000</b>/person</p>
                     </div>
                     
                   <!-- <div class="thumb-content">
@@ -164,7 +176,7 @@
               </div>
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video">
                         <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/Drawn from Within with a New York Artist - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -180,7 +192,7 @@
               </div>
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video">
                         <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/Happiness meditation with chocolate - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -196,7 +208,7 @@
               </div>
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video">
                         <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/Worlds Top Coffee Masterclass - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -214,10 +226,10 @@
           </div>
           </div>
           <!-- Carousel controls -->
-          <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+          <a class="carousel-control-prev"  id="controls-icon" href="#myCarousel" data-slide="prev">
             <i class="fa fa-angle-left"></i>
           </a>
-          <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+          <a class="carousel-control-next"  id="controls-icon" href="#myCarousel" data-slide="next">
             <i class="fa fa-angle-right"></i>
           </a>
     
@@ -225,10 +237,10 @@
    </div>
   </section>
   <!-- **********secction-2************* -->
-  <section class="next mt-5">
+  <section class="next mt-5 pt-3">
     <h3>Starting in the next 6 hours</h3>
     
-    <div id="myCarousel-3" class="carousel slide mt-3" data-ride="carousel" data-interval="0">
+    <div id="myCarousel-3" class="carousel slide mt-4" data-ride="carousel" data-interval="0">
             
       <!-- Wrapper for carousel items -->
       <div class="carousel-inner">
@@ -243,7 +255,7 @@
                         <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4"  />
                       </video>
                     </div>
-                <div class="content" style="float: right; margin-top: -10rem;">
+                <div class="content" >
                   <p>Magic show & mentalism <br> show lesson trick</p>
                   <p>From rs.23400</p>
                   <span><button>12.30</button></span>
@@ -263,7 +275,7 @@
                         <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4"  />
                       </video>
                     </div>
-                <div class="content" style="float: right; margin-top: -10rem;">
+                <div class="content" >
                   <p>Magic show & mentalism <br> show lesson trick</p>
                   <p>From rs.23400</p>
                   <span><button>12.30</button></span>
@@ -283,7 +295,7 @@
                         <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4"  />
                       </video>
                     </div>
-                <div class="content" style="float: right; margin-top: -10rem;">
+                <div class="content" >
                   <p>Magic show & mentalism <br> show lesson trick</p>
                   <p>From rs.23400</p>
                   <span><button>12.30</button></span>
@@ -302,70 +314,76 @@
         <div class="carousel-item">
           <div class="row">
             
-            
-            <div class="cover col">
-              <div class="thumb-wrapper">
-                <div class="video mt-4">
-                      <video class="hours video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
-                        <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4"  />
-                      </video>
-                    </div>
-                <div class="content" style="float: right; margin-top: -10rem;">
-                  <p>Magic show & mentalism <br> show lesson trick</p>
-                  <p>From rs.23400</p>
-                  <span><button>12.30</button></span>
-                  <span><button>1.30</button></span>
-            
-                  
-                  
-                </div>						
+            <div class="col">
+              <div class="cover col">
+                <div class="thumb-wrapper">
+                  <div class="video mt-4">
+                        <video class="hours video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
+                          <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4"  />
+                        </video>
+                      </div>
+                  <div class="content" >
+                    <p>Magic show & mentalism <br> show lesson trick</p>
+                    <p>From rs.23400</p>
+                    <span><button>12.30</button></span>
+                    <span><button>1.30</button></span>
+              
+                    
+                    
+                  </div>						
+                </div>
               </div>
             </div>
-            <div class="cover col">
-              <div class="thumb-wrapper">
-                <div class="video mt-4">
-                      <video class="hours video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
-                        <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4"  />
-                      </video>
-                    </div>
-                <div class="content" style="float: right; margin-top: -10rem;">
-                  <p>Magic show & mentalism <br> show lesson trick</p>
-                  <p>From rs.23400</p>
-                  <span><button>12.30</button></span>
-                  <span><button>1.30</button></span>
-            
-                  
-                  
-                </div>						
+            <div class="col">
+              <div class="cover col">
+                <div class="thumb-wrapper">
+                  <div class="video mt-4">
+                        <video class="hours video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
+                          <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4"  />
+                        </video>
+                      </div>
+                  <div class="content" >
+                    <p>Magic show & mentalism <br> show lesson trick</p>
+                    <p>From rs.23400</p>
+                    <span><button>12.30</button></span>
+                    <span><button>1.30</button></span>
+              
+                    
+                    
+                  </div>						
+                </div>
               </div>
             </div>
-            <div class="cover col">
-              <div class="thumb-wrapper">
-                <div class="video mt-4">
-                      <video class="hours video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
-                        <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4"  />
-                      </video>
-                    </div>
-                <div class="content" style="float: right; margin-top: -10rem;">
-                  <p>Magic show & mentalism <br> show lesson trick</p>
-                  <p>From rs.23400</p>
-                  <span><button>12.30</button></span>
-                  <span><button>1.30</button></span>
-            
-                  
-                  
-                </div>						
+            <div class="col">
+              <div class="cover col">
+                <div class="thumb-wrapper">
+                  <div class="video mt-4">
+                        <video class="hours video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
+                          <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4"  />
+                        </video>
+                      </div>
+                  <div class="content" >
+                    <p>Magic show & mentalism <br> show lesson trick</p>
+                    <p>From rs.23400</p>
+                    <span><button>12.30</button></span>
+                    <span><button>1.30</button></span>
+              
+                    
+                    
+                  </div>						
+                </div>
               </div>
             </div>
+            
             				
           </div>
         </div>
         </div>
         <!-- Carousel  -->
-        <a class="carousel-control-prev-3" href="#myCarousel-3" data-slide="prev">
+        <a class="carousel-control-prev" id="controls-3" href="#myCarousel-3" data-slide="prev">
           <i class="fa fa-angle-left"></i>
         </a>
-        <a class="carousel-control-next-3" href="#myCarousel-3" data-slide="next">
+        <a class="carousel-control-next" id="controls-3" href="#myCarousel-3" data-slide="next">
           <i class="fa fa-angle-right"></i>
         </a>
   
@@ -374,9 +392,9 @@
   </section>
   <!-- **********secction-2************* -->
 
-  <section class="top mt-5">
+  <section class="top mt-5 pt-3">
     <h3>Top Sellers</h3>
-      <div id="myCarousel-2" class="carousel slide mt-3" data-ride="carousel" data-interval="0">
+      <div id="myCarousel-2" class="carousel slide" data-ride="carousel" data-interval="0">
             
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner">
@@ -384,7 +402,7 @@
             <div class="row no-gutters">
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video">
                     <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                       <source src="/images/exp-page/videos/Tarot Reading and Meditation - Airbnb.mp4" type="video/mp4" />
                     </video>
@@ -399,7 +417,7 @@
               </div>
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video ">
                         <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -414,14 +432,15 @@
                 </div>
               </div>		
               <div class="col">
-              <div class="thumb-wrapper mt-5 pt-2">
+              <div class="thumb-wrapper mt-5">
                 <img src="/images/exp-page/game-1.jpg" width="90%">
-                <!-- <p>This image info</p> -->
+                <p  id="top-text">Cooking and Spice Market </br>  with Akasha</p>
+                <p class="price-tag"><b>From rs.2000</b>/person</p>
               </div> 
               </div>								
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video  mt-2">
+                  <div class="video  ">
                         <video class="video-fluid" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/'True vs False' Funny Historical Game - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -437,7 +456,7 @@
               </div>
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video ">
                         <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/Pasta with the Grandmas - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -456,7 +475,7 @@
             <div class="row">
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video ">
                         <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/Dive Under the Sea with a Shark Expert - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -471,20 +490,19 @@
                 </div>
               </div>
               <div class="col">
-                <div class="thumb-wrapper mt-5 pt-2">
+                <div class="thumb-wrapper mt-5">
                   
-                    <div>
-                      <img src="/images/exp-page/living-1.jpg" alt="" width="100%">
-                    </div>
+                   
+                    <img src="/images/exp-page/living-1.jpg" alt="" width="100%">
+                    <p  id="top-text">Cooking and Spice Market </br>  with Akasha</p>
+                    <p class="price-tag"><b>From rs.2000</b>/person</p>
                     
-                  <!-- <div class="thumb-content">
-                    <h4>Macbook Pro</h4>
-                  </div>						 -->
+                 
                 </div>
               </div>
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video ">
                         <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/Drawn from Within with a New York Artist - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -500,7 +518,7 @@
               </div>
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video ">
                         <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/Happiness meditation with chocolate - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -516,7 +534,7 @@
               </div>
               <div class="col">
                 <div class="thumb-wrapper">
-                  <div class="video mt-2">
+                  <div class="video ">
                         <video class="video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop  muted>
                           <source src="/images/exp-page/videos/Worlds Top Coffee Masterclass - Airbnb.mp4" type="video/mp4" />
                         </video>
@@ -534,10 +552,10 @@
           </div>
           </div>
           <!-- Carousel controls -->
-          <a class="carousel-control-prev" href="#myCarousel-2" data-slide="prev">
+          <a class="carousel-control-prev" id="controls-4" href="#myCarousel-2" data-slide="prev">
             <i class="fa fa-angle-left"></i>
           </a>
-          <a class="carousel-control-next" href="#myCarousel-2" data-slide="next">
+          <a class="carousel-control-next" id="controls-4" href="#myCarousel-2" data-slide="next">
             <i class="fa fa-angle-right"></i>
           </a>
     
@@ -547,10 +565,10 @@
  
   <!-- **********secction-2************* -->
  
-  <section class="new mt-5">
+  <section class="new mt-5 pt-2">
     <h3>New this week</h3>
     
-    <div id="myCarousel-4" class="carousel slide mt-3" data-ride="carousel" data-interval="0">
+    <div id="myCarousel-5" class="carousel slide mt-3" data-ride="carousel" data-interval="0">
             
       <!-- Wrapper for carousel items -->
       <div class="carousel-inner">
@@ -619,10 +637,10 @@
         </div>
         </div>
         <!-- Carousel controls -->
-        <a class="carousel-control-prev-3" href="#myCarousel-4" data-slide="prev">
+        <a class="carousel-control-prev-5" id="controls-5"   href="#myCarousel-5" data-slide="prev">
           <i class="fa fa-angle-left"></i>
         </a>
-        <a class="carousel-control-next-3" href="#myCarousel-4" data-slide="next">
+        <a class="carousel-control-next-5"  id="controls-5" href="#myCarousel-5" data-slide="next">
           <i class="fa fa-angle-right"></i>
         </a>
   
@@ -633,9 +651,9 @@
 
  <!-- **********secction-2************* -->
 
- <section class="plans mt-5">
+ <section class="plans mt-5 pt-2" >
   <h3>Make plan this weekend</h3>
-    <div id="myCarousel-5" class="carousel slide mt-3" data-ride="carousel" data-interval="0">
+    <div id="myCarousel-6" class="carousel slide " data-ride="carousel" data-interval="0">
           
       <!-- Wrapper for carousel items -->
       <div class="carousel-inner">
@@ -676,6 +694,8 @@
             <div class="col">
             <div class="thumb-wrapper mt-5 pt-2">
               <img src="/images/exp-page/game-1.jpg" width="90%">
+              <p id="plan-text">Cooking and Spice Market </br>  with Akasha</p>
+               <p class="price-tag"><b>From rs.2000</b>/person</p>
               <!-- <p>This image info</p> -->
             </div> 
             </div>								
@@ -734,6 +754,8 @@
                 
                   <div>
                     <img src="/images/exp-page/living-1.jpg" alt="" width="100%">
+                    <p id="plan-text">Cooking and Spice Market </br>  with Akasha</p>
+                  <p class="price-tag"><b>From rs.2000</b>/person</p>
                   </div>
                   
                 <!-- <div class="thumb-content">
@@ -787,10 +809,10 @@
         </div>
         </div>
         <!-- Carousel  -->
-        <a class="carousel-control-prev" href="#myCarousel-5" data-slide="prev">
+        <a class="carousel-control-prev" id="controls-6" href="#myCarousel-6" data-slide="prev">
           <i class="fa fa-angle-left"></i>
         </a>
-        <a class="carousel-control-next" href="#myCarousel-5" data-slide="next">
+        <a class="carousel-control-next" id="controls-6" href="#myCarousel-6" data-slide="next">
           <i class="fa fa-angle-right"></i>
         </a>
   
@@ -847,11 +869,11 @@
      <div class="row">
          <div class="col"><p>© 2021 Airbnb, Inc. All rights reserved</p></div>
          <div class="col">
-             <ul class="copy-text" >
+             <ul class="copy-text " >
                 <li >Privacy</li>
                 <li >Terms</li>
                 <li >Sitemap</li>
-                <li >Company details</li>
+                <li >Company Details</li>
              </ul>
 
          </div>
@@ -922,64 +944,3 @@
 
 
 
-
-
-
-
-
-
-
-
- <!-- <div class="cover col">
-              <div class="thumb-wrapper">
-                <div class="video mt-4">
-                      <video class="hours video-fluid z-depth-1" onmouseover="this.play()" onmouseout="this.pause()" loop controls muted>
-                        <source src="/images/exp-page/videos/Solve the Mystery Escape Room - Airbnb.mp4" type="video/mp4"  />
-                      </video>
-                    </div>
-                <div  style="float: right; margin-top: -10rem;">
-                  <p>Magic show & mentalism <br> show lesson trick</p>
-                  <p>From rs.23400</p>
-                  <span><button>12.30</button></span>
-                  <span><button>1.30</button></span>
-            
-                  
-                  
-                </div>						
-              </div>
-            </div>		
-          
-          
-          
-          
-          
-          
-          
-          
-          newwwwwwwwww
-          
-          
-          
-          
-           <div class="new-img thumb-wrapper">
-                          <img src="/images/Online-page/new-1.png">
-                          <div >
-                            <p>Collection</p>
-                            <p>Experience the world <br> from home</p>
-                            <button>Show All</button>
-                          </div>						
-                        </div>
-          
-           <div class=" col">
-                          <div class="new-img thumb-wrapper">
-                            <img src="/images/Online-page/new-2.jpg"> 
-                            <div >
-                              <p>Collection</p>
-                              <p>Great for team <br> building </p>
-                              <button>Show All</button>
-                            </div>						
-                          </div>
-                    
-                      </div>		
-          
-          -->

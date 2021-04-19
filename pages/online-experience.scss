@@ -1,16 +1,23 @@
+
+$font-family:'Roboto', sans-serif;
+$title-font-size:52px;
+$heading-font-size:22px;
+$body-font-size:14px;
+
+
 .navbar{
     padding: 0 80px;
     background-color: white;
     -webkit-box-shadow: 0 8px 6px -6px rgb(211, 210, 210);
     -moz-box-shadow: 0 8px 6px -6px #999;
     box-shadow: 0 8px 6px -6px rgb(211, 211, 211);
-
+  
 }
-$font-family:'Roboto', sans-serif;
-$title-font-size:52px;
-$heading-font-size:22px;
-$body-font-size:14px;
-//$nav-font-size:16px;
+
+#sign{
+    background-color: white;
+    border-radius: 15px;
+}
 
 body{
     font-family: $font-family;
@@ -55,12 +62,50 @@ section,footer{
     }
 }
 
+////////////////////////////////////////section-2///////////////
+.wander-home{
+    h3{
+        font-size: $heading-font-size;
+    }
+}
+
+#controls-icon{
+    margin-top: 30px;
+}
+
+#myCarousel{
+    margin-top: -2rem;
+}
+
+.thumb-wrapper{
+    img{
+        height: 16rem;
+    }
+}
+.thumb-content{
+    margin-top: -2rem;
+}
+#img-text{
+    margin-top: 1.5rem;
+}
+
 .video-fluid{
 	width: 12rem;
 	height: 22rem;
 }
   
-i{
+// i{
+//     color: black;
+//     width: 2rem;
+//     height: 2rem;
+//     border: 2px solid black;
+//     border-radius: 50%;
+//     margin-top: -28rem;
+//     padding-top: 5px;
+// }
+
+  
+.fa-angle-left,.fa-angle-right{
     color: black;
     width: 2rem;
     height: 2rem;
@@ -72,11 +117,66 @@ i{
 .carousel-control-prev{
     left: 60rem;
 }
+
+///////////////////section-3////////////////
+.next{
+    h3{
+        font-size: $heading-font-size;
+    }
+}
+
 .cover{
     border-radius: 10px;
-    border:2px solid black;
+    border:2px solid rgba(0, 0, 0, 0.199);
     height: fit-content;
 }
+
+#controls-3{
+    margin-top: 12rem;
+}
+
+.content{
+    float: right; 
+    margin-top: -10rem;
+
+}
+
+/////////////////////////////////section-4
+.top{
+    h3{
+        font-size: $heading-font-size;
+    }
+}
+
+#myCarousel-2{
+    margin-top: -2rem;
+}
+
+#controls-4{
+    margin-top: 2.2rem;
+}
+
+#top-text{
+    margin-top: 1.5rem;
+}
+/////////////////////////////section-5
+.new{
+    h3{
+        font-size: $heading-font-size;
+    }
+}
+
+.carousel-control-prev-5{
+   position: absolute;
+   margin-top: -23.5rem;
+   margin-left: 65rem;
+}
+.carousel-control-next-5{
+    position: absolute;
+    margin-top: -23.5rem;
+    margin-left: 68rem;
+ }
+
 .hours{
     width: 10rem;
     height: 10rem;
@@ -96,4 +196,49 @@ i{
        padding-left: 24px;
     }
     
+}
+
+////////////////////////section-6
+.plans{
+    h3{
+        font-size: $heading-font-size;
+    }
+}
+
+#myCarousel-6{
+    margin-top: -2.2rem;
+}
+
+#controls-6{
+    margin-top: 2.2rem;
+}
+
+#plan-text{
+    margin-top: 1.5rem;
+}
+.load-more{
+    button{
+        background-color: black;
+        color: white;
+        border: none;
+        padding:1rem 1.2rem;
+        border-radius: 15px;
+    }
+    
+}
+
+.copy-text{
+    li{
+        display: inline;
+       
+    }
+   
+}
+
+#foo-title{
+    font-size: 14px;
+}
+
+#foo-content{
+    font-size: $body-font-size;
 }
